@@ -1,4 +1,3 @@
-# setups
 
 # Terminal
 
