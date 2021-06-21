@@ -23,5 +23,11 @@ https://github.com/lukechilds/zsh-nvm
 
 https://github.com/zsh-users/zsh-syntax-highlighting
 
+# VSCode
+
+copy VSCode.app in Applications
+
+Add `export PATH="$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"` to .zprofile
+
 
 
