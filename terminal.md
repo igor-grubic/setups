@@ -19,9 +19,22 @@ install
 
 oh-my-zsh
 `sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
-https://github.com/lukechilds/zsh-nvm
 
-https://github.com/zsh-users/zsh-syntax-highlighting
+in .zshrc
+- `change theme to "agnoster"`
+- install powerline fonts 
+```
+$ git clone https://github.com/powerline/fonts.git
+$ cd fonts
+$ ./install.sh
+```
+- add `"Source Code Pro for Powerline"` to fontfamily in `~/.hyper.js`
+- test `echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"`
+- `  plugins: ["hyper-material-theme", "hyper-pane", "hyper-search", "hyper-tabs-enhanced"],`
+- `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
+- add `zsh-syntax-highlighting` to `.zshrc` plugins
+- `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
+- add `zsh-syntax-highlighting` to `.zshrc` plugins
 
 # VSCode
 
