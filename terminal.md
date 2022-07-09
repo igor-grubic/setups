@@ -29,11 +29,10 @@ $ ./install.sh
 ```
 - add `"Source Code Pro for Powerline"` to fontfamily in `~/.hyper.js`
 - test `echo "\ue0b0 \u00b1 \ue0a0 \u27a6 \u2718 \u26a1 \u2699"` in shell
-- `  plugins: ["hyper-material-theme", "hyper-pane", "hyper-search", "hyper-tabs-enhanced"],`
 - `git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-syntax-highlighting`
 - add `zsh-syntax-highlighting` to `.zshrc` plugins
 - `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
-- add `zsh-syntax-highlighting` to `.zshrc` plugins
+- add `zsh-autosuggestions` to `.zshrc` plugins
 
 # VSCode
 
