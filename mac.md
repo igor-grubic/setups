@@ -4,3 +4,8 @@ show hidden files
 
 command + shift + .
 
+
+### stop mac from moving windows around
+
+system preferences -> mission control -> automatically rearrange and annoy 
+
