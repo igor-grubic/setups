@@ -9,3 +9,5 @@ command + shift + .
 
 system preferences -> mission control -> automatically rearrange and annoy 
 
+open hot corners in same menu, and disable notes
+
