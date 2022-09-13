@@ -33,6 +33,7 @@ $ ./install.sh
 - add `zsh-syntax-highlighting` to `.zshrc` plugins
 - `git clone https://github.com/zsh-users/zsh-autosuggestions $ZSH_CUSTOM/plugins/zsh-autosuggestions`
 - add `zsh-autosuggestions` to `.zshrc` plugins
+  - if autosuggest doesnt show, add `ZSH_AUTOSUGGEST_HIGHLIGHT_STYLE='fg=62'` to zshcr
 - add ```DEFAULT_USER prompt_context(){}``` anywhere in .zshrc
 
 For iTerm colour schemes, download https://github.com/mbadolato/iTerm2-Color-Schemes and import colour scheme in preferences. Solarized Dark ist sehr gut
