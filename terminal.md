@@ -37,6 +37,11 @@ $ ./install.sh
 
 For iTerm colour schemes, download https://github.com/mbadolato/iTerm2-Color-Schemes and import colour scheme in preferences. Solarized Dark ist sehr gut
 
+If command+delete doesn't work, follow: 
+
+<img width="659" alt="image" src="https://user-images.githubusercontent.com/11640810/189859414-4fa5a0f1-8cd3-46d2-9c02-d2cb6785a41a.png">
+
+
 # VSCode
 
 copy VSCode.app in Applications
