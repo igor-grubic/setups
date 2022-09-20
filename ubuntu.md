@@ -41,3 +41,11 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
 ```
+CMD shift P => user settings json
+```
+"editor.codeActionsOnSave": {
+  "source.fixAll.eslint": true,
+},
+"eslint.alwaysShowStatus": true,
+"editor.defaultFormatter": "dbaeumer.vscode-eslint",
+```
