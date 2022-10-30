@@ -41,6 +41,7 @@ code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
 code --install-extension esbenp.prettier-vscode
 ```
+<<<<<<< Updated upstream
 CMD shift P => user settings json
 ```
 "editor.codeActionsOnSave": {
@@ -49,3 +50,48 @@ CMD shift P => user settings json
 "eslint.alwaysShowStatus": true,
 "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 ```
+=======
+
+## touchpad
+
+see [fusuma](https://github.com/iberianpig/fusuma) install, then startup
+`sg input fusuma`
+
+## ctrl+c/v
+
+Install kinto.sh then use mac bindings
+In VScode teminal add file->preferences->key shortcuts
+```
+      {
+            "key": "ctrl+c",
+            "command": "workbench.action.terminal.copySelection",
+            "when": "terminalFocus"
+        },
+        {
+            "key": "ctrl+v",
+            "command": "workbench.action.terminal.paste",
+            "when": "terminalFocus"
+        },
+        {
+            "key": "ctrl+shift+c",
+            "command": "workbench.action.terminal.sendSequence",
+            "args": {
+              "text": "\u0003"
+            },
+            "when": "terminalFocus"
+        },
+``` 
+
+## nvidia to intel battery saving
+
+`sudo prime-select nvidia`
+
+to switch back to intel
+
+`sudo prime-select intel`
+
+to check which card is selected at the moment
+
+`prime-select query`
+
+>>>>>>> Stashed changes
