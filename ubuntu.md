@@ -39,9 +39,8 @@ google-chrome
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
 code --install-extension EditorConfig.EditorConfig
-code --install-extension esbenp.prettier-vscode
+code --install
 ```
-<<<<<<< Updated upstream
 CMD shift P => user settings json
 ```
 "editor.codeActionsOnSave": {
@@ -50,7 +49,6 @@ CMD shift P => user settings json
 "eslint.alwaysShowStatus": true,
 "editor.defaultFormatter": "dbaeumer.vscode-eslint",
 ```
-=======
 
 ## touchpad
 
@@ -94,4 +92,3 @@ to check which card is selected at the moment
 
 `prime-select query`
 
->>>>>>> Stashed changes
